@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Todo item:</strong>
+  <%= @comment.todo_item %>
+</p>
+
+<%= link_to 'Edit', edit_comment_path(@comment) %> |
+<%= link_to 'Back', comments_path %>
